@@ -28,6 +28,7 @@ body{
     ;
     width: 90%;
     height: 100px;
+    border-radius: 0 0 30px 30px;
     
     
     
@@ -39,10 +40,11 @@ header{
     padding: 10px;
     
     
+    
 }
 .the_logo{
-    font-size: 30px;
-    text-transform: uppercase;
+    font-size:30px;
+    text-transform: initial;
 }
 ul{
     width: 50%;
@@ -65,7 +67,7 @@ ul a:hover{
 }
 .para h1{
     color: #fff;
-    font-size: 90px;
+    font-size: 50px;
     text-transform: inherit;
 }
 .para p{
@@ -170,43 +172,64 @@ ul a:hover{
     font-size: 0.8em;
     color: #000016;
 }
-.project-tittle{
+.projects .tittle {
+    color: #40E0D0;
+    text-align: left;
     display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin-top: 10px;
+    font-size: 1.6rem;
+    justify-content: left;
+    font-family: 'poppins' sans-serif;
+    
+    
 
 }
+.project-tittle {
+    display: contents;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 1px;
+    margin-top: 10px;
+
+
+}
+
 .buy{
-    text-decoration-line: underline;
-    color: #074fa8;
-    font-size: 40px;
+    
+    text-decoration-line: none;
+    color: #1ca597;
+    font-size: 30px;
+    padding: 0.1rem;
+    margin: 0.1rem;
 }
 .buy:hover{
-    color: rgb(60, 62, 150);
+    color: rgb(2, 14, 80);
 }
 /*footer*/
 
 .empty{
     background-image: linear-gradient(to right, #0c0c3a,#2c2929);
-    padding: 400px;
+    padding: 300px;
 
 }
-/*
+
 .footer{
-    background-color: #4b7bec;
-
+    background-image: linear-gradient(to right, #090925,#4e4747);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 30px 0 0;
 }
-*/
+
 .copy{
     color: #f8f8f8;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
-    padding-left: 5%;
-    padding-top: 0%;
-    padding-bottom: 5px;
-    font-size: x-large;
+    padding-left: 0.1rem;
+    margin: 10px; 
+    padding-bottom: 1px;
+    font-size: large;
+    justify-content: center;
+
 
 
 
@@ -216,11 +239,11 @@ ul a:hover{
     color: #f8f8f8;
     display: flex;
     font-family: 'Courier New', Courier, monospace;
-    padding-left: 40%;
-    padding-top: 1px;
+    padding-left: 90px;
+    padding-top: 40px;
     padding-bottom: 40px;
     font-size: small;
-    list-style-position: inherit;
+    justify-content: center;
 }
 
 .about{
